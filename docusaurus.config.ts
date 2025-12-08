@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'SuperGit',
+  title: 'GitQuick',
   tagline: 'Git is cool',
   favicon: 'img/favicon.ico',
 
@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://supergit.dev',
+  url: 'https://gitquick.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gerixmus', // Usually your GitHub org/user name.
-  projectName: 'supergit-docs', // Usually your repo name.
+  projectName: 'gitquick-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
 
@@ -75,7 +75,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SuperGit',
+      title: 'GitQuick',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Gerixmus/supergit',
+          href: 'https://github.com/Gerixmus/gitquick',
           label: 'GitHub',
           position: 'right',
         },
@@ -133,12 +133,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Gerixmus/supergit',
+              href: 'https://github.com/Gerixmus/gitquick',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} SuperGit. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GitQuick. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
