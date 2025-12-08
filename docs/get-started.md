@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="windows" label="Windows">
-    1. Download the latest exe file from [GitHub](https://github.com/Gerixmus/supergit/releases).
-    1. Add the path to the `sg.exe` file to your `Path` environment variable.
+    1. Download the latest exe file from [GitHub](https://github.com/Gerixmus/gitquick/releases).
+    1. Add the path to the `gq.exe` file to your `Path` environment variable.
   </TabItem>
 </Tabs>
