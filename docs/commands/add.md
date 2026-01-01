@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'add'
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # gq add
@@ -9,4 +9,4 @@ sidebar_position: 1
 
 ## Description
 
-Interactively add file contents to the index.
+Interactively add files to the index.
