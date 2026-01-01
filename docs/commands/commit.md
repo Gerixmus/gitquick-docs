@@ -3,9 +3,9 @@ sidebar_label: 'commit'
 sidebar_position: 2
 ---
 
-# sg commit
+# gq commit
 
-`sg commit`
+`gq commit`
 
 ## Description
 

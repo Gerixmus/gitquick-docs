@@ -3,9 +3,9 @@ sidebar_label: 'branch'
 sidebar_position: 3
 ---
 
-# sg branch
+# gq branch
 
-`sg branch [OPTIONS]`
+`gq branch [OPTIONS]`
 
 ## Description
 
