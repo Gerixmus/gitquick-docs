@@ -1,4 +1,5 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -21,12 +22,12 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Uses git',
+    Svg: require('@site/static/img/Git-Logo-1788C.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse nec gravida mi, vel efficitur ex.
       </>
     ),
   },
@@ -35,14 +36,20 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/rust-logo-blk.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Suspendisse nec gravida mi, vel efficitur ex.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
+  const { colorMode } = useColorMode()
+  if (title === 'Uses git' && colorMode === 'light') {
+    Svg = require('@site/static/img/Git-Logo-1788C.svg').default
+  } else if (title === 'Uses git' && colorMode === 'dark') {
+    Svg = require('@site/static/img/Git-Logo-White.svg').default
+  }
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
