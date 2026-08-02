@@ -16,3 +16,4 @@ Interactively commit files.
 | Option | Description |
 | - | - |
 | `--fixup` | Interactively create a fixup commit for autosquash (`git rebase --autosquash` or `gq rebase`). |
+| `--amend` | Modify most recent commit with staged changes. |
