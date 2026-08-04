@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
     ```
   </TabItem>
   <TabItem value="windows" label="Windows">
-    1. Download the latest exe file from [GitHub](https://github.com/Gerixmus/gitquick/releases).
+    1. Download the latest exe file from [GitHub](https://github.com/gordziejonok/gitquick/releases).
     1. Add the path to the `gq.exe` file to your `Path` environment variable.
   </TabItem>
 </Tabs>
