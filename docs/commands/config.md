@@ -18,7 +18,6 @@ Set options. The name is actually the section and the key separated by a dot.
 | `commit.conventional` | Bool | Enable [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Default is `false`. |
 | `commit.types` | Comma separated types | Types for conventional commits. Default is `build, ci, docs, feat, fix, perf, refactor, style, test, revert`. |
 | `commit.ticket` | Bool | Enable ticket number integration. Default is `false`. |
-| `branch.types` | Comma separated types | Types for conventional branches. Default is `feature, bugfix, hotfix, release, chore`. |
 
 ## Examples
 ### Conventional commits
